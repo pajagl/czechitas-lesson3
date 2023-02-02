@@ -20,3 +20,8 @@ body {
 	background-color: white;
 	color: black;
 }
+
+.zmena {
+	font-weight: bold;
+	font-size: 35px;
+}

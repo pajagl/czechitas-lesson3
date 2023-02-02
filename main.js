@@ -17,14 +17,19 @@ udaje.innerHTML += "<p>" + jmeno + ", věk: " + vek + "</p>"
 
 let kalkulacka = document.querySelector(".kalkulacka")
 
-let hodiny = 8
-let dny = 21
+// Zadané hodnoty
+// let hodiny = 8
+// let dny = 21
+
+let hodiny = Number(prompt("Kolik hodin denně odpracujete?"))
+let dny = Number(prompt("JKolik dní v měsíci pracujete?"))
+
 
 let hodinovka = Number(prompt("Jaká je vaše hodinová sazba?"))
 
 let vysledek = (hodiny * dny * hodinovka)
 
-kalkulacka.innerHTML = vysledek
+kalkulacka.innerHTML = "Vaše předpokládaná mzda je: " + vysledek
 
 
 
