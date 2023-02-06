@@ -22,7 +22,7 @@ let kalkulacka = document.querySelector(".kalkulacka")
 // let dny = 21
 
 let hodiny = Number(prompt("Kolik hodin denně odpracujete?"))
-let dny = Number(prompt("JKolik dní v měsíci pracujete?"))
+let dny = Number(prompt("Kolik dní v měsíci pracujete?"))
 
 
 let hodinovka = Number(prompt("Jaká je vaše hodinová sazba?"))
